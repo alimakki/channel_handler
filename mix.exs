@@ -28,7 +28,7 @@ defmodule ChannelHandler.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:phoenix, ">= 1.6.0", optional: true, only: :test},
-      {:spark, "~> 1.1.2"}
+      {:spark, git: "https://github.com/alimakki/spark.git", branch: "update_sourceror"}
     ]
   end
 
